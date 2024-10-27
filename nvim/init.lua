@@ -9,6 +9,7 @@ vim.opt.smartindent = true
 
 vim.opt.hlsearch = false
 vim.opt.cursorline = true
+vim.opt.colorcolumn = "80"
 
 vim.keymap.set("n", "wh", "<C-w>h")
 vim.keymap.set("n", "wj", "<C-w>j")
