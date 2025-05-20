@@ -4,4 +4,5 @@ if status is-interactive
       set sponge_allow_previosly_successful true
       set sponge_successful_exit_codes 0 1 127
       set -gx EDITOR nvim
+      alias v nvim
 end
